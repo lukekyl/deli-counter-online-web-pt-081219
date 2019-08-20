@@ -30,7 +30,7 @@ def take_a_number(katz_deli, additions)
     additions.each{|name|
       counter += 1
       line_array << name
-      puts "Welcome #{name}. You are number #{counter} in line."
+      puts "Welcome, #{name}. You are number #{counter} in line."
     }
   end
   return line_array
