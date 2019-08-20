@@ -43,6 +43,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   else 
     puts "Currently serving #{line_array[0]}."
-    line_array.unshift
+    line_array.pop
   end
 end
