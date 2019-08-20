@@ -35,3 +35,8 @@ def take_a_number(katz_deli, additions)
   end
   return line_array
 end
+
+def now_serving(katz_deli)
+  if counter == 0 
+    puts ""
+end
