@@ -20,12 +20,14 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, additions)
-  line_array = katz_deli
+  line_array = []
+  line_message = ""
   counter = katz_deli.length
   if counter == 0 
     counter += 1
     line_array << additions
-    puts "Welcome, #{additions}. You are number #{counter} in line."
+    line_message = "Welcome, #{additions}. You are number #{counter} in line."
+    puts line_message
   else
     additions.each{|name|
       counter += 1
