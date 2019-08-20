@@ -42,7 +42,7 @@ def now_serving(katz_deli)
   if counter == 0 
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{katz_deli[counter]}."
+    puts "Currently serving #{line_array[counter]}."
     line_array.unshift()
   end
 end
