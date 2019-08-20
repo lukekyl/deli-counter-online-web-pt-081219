@@ -24,11 +24,12 @@ def take_a_number(katz_deli, additions)
   counter = katz_deli.length
   if counter == 0 
     line_array << additions
+    puts "Welcome #{name}. You are number #{counter} in line."
   else
     additions.each{|name|
       counter += 1
       line_array << name
-      p "Welcome #{name}. You are number #{counter} in line."
+      puts "Welcome #{name}. You are number #{counter} in line."
     }
   end
   return line_array
