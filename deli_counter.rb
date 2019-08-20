@@ -29,8 +29,8 @@ def take_a_number(katz_deli, additions)
     line_message = "Welcome, #{additions}. You are number #{counter} in line."
     puts line_message
   else
+    line_array << additions
     counter += 1
-    line_array[counter] = additions
     puts "Welcome, #{additions}. You are number #{counter} in line."
   end
   return line_array
