@@ -23,6 +23,7 @@ def take_a_number(katz_deli, additions)
   line_array = katz_deli
   counter = katz_deli.length
   if counter == 0 
+    counter += 1
     line_array << additions
     puts "Welcome #{additions}. You are number #{counter} in line."
   else
