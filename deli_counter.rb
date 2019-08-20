@@ -23,7 +23,7 @@ def take_a_number(katz_deli, additions)
   line_array = katz_deli
   counter = katz_deli.length
   if counter == 0 
-    line_array << name
+    line_array << additions
   else
     additions.each{|name|
       counter += 1
