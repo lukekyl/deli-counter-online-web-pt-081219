@@ -31,7 +31,7 @@ def take_a_number(katz_deli, additions)
   else
     counter += 1
     line_array[counter] = additions
-    puts "Welcome, #{name}. You are number #{counter} in line."
+    puts "Welcome, #{additions}. You are number #{counter} in line."
   end
   return line_array
 end
