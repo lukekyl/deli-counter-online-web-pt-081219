@@ -37,6 +37,12 @@ def take_a_number(katz_deli, additions)
 end
 
 def now_serving(katz_deli)
+  line_array = katz_deli
+  counter = katz_deli.length
   if counter == 0 
-    puts ""
+    puts "There is nobody waiting to be served!"
+  else 
+    puts "Currently serving #{katz_deli[counter]}."
+    line_array.unshift()
+  end
 end
